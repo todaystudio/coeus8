@@ -1,0 +1,45 @@
+.programm {
+    margin-top: 86px;
+
+    .sec-title {
+        margin-bottom: 44px;
+    }
+
+    &__grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px 110px;
+    }
+
+    &__item {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        .num {
+            font-family: 'Share Tech Mono', monospace;;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 46px;
+            line-height: 46px;
+            color: #1C1C1C;
+        }
+
+        .text {
+            max-width: 335px;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 21px;
+            color: #262626;
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .programm {
+        &__grid {
+            grid-template-columns: 1fr;
+            gap: 31px 70px;
+        }
+    }
+}

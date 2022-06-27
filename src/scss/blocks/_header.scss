@@ -1,0 +1,115 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 33px;
+
+    &__logo {
+        width: 90px;
+        height: 90px;
+
+        img {
+            width: 100%;
+            width: 100%;
+            object-fit: contain;
+        }
+    }
+
+    nav {
+        ul {
+            display: flex;
+            align-items: center;
+            gap: 65px;
+            list-style: none;
+
+            li {
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 23px;
+                color: #545454;
+            }
+        }
+    }
+
+    &__btn {
+        background: linear-gradient(90deg, #363636 4.35%, #000000 95.17%);
+        border-radius: 7px;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 21px;
+        color: #EDEDED;
+        padding: 13px 60px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        transition: all 200ms ease;
+        &:hover {
+            background: linear-gradient(90deg, #363636 72.46%, #000000 95.17%);
+        }
+    }
+
+    &__responsive {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+    }
+
+    &__burger {
+        width: 42px;
+        display: flex;
+        flex-flow: column;
+        align-content: flex-end;
+        align-items: flex-end;
+        gap: 10px;
+        cursor: pointer;
+        display: none;
+
+        div {
+            width: 42px;
+            height: 3px;
+            background: #2C2C2C;
+            border-radius: 7px;
+            transition: all 300ms ease-in-out;
+
+            &:nth-child(2) {
+                width: 28px;
+            }
+        }
+
+        &:hover {
+            div {
+                width: 28px;
+
+                &:nth-child(2) {
+                    width: 42px;
+                }
+            }
+        }
+    }
+
+}
+
+@media (max-width: 810px) {
+    .header {
+        nav {
+            display: none;
+        }
+        &__burger {
+            display: flex;
+        }
+    }
+}
+
+@media (max-width: 410px) {
+    .header {
+        nav {
+            display: none;
+        }
+        &__burger {
+            display: flex;
+        }
+        &__btn {
+            display: none;
+        }
+    }
+}

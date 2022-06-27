@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="./css/style.min.css">
+    <title>Data Analytics Online Course – COEUS8</title>
+</head>
+
+<body>
+
+    <div class="overlay" id="overlayForDrawer">
+        <div class="drawer">
+            <div class="drawer__cross"></div>
+            <div class="drawer__wrap">
+                <img class="drawer__logo" src="./img/logo_dark.svg" alt="logo">
+                <ul class="drawer__ul">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Price</a></li>
+                    <li><a href="#">Course Programm</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="overlay" id="overlayForModal">
+
+        <div class="modal">
+            <div class="modal__cross"></div>
+            <form action="#" class="form">
+                <div class="title">Give me a call back</div>
+                <input required name="name" type="text" placeholder="Name" id="name_form">
+                <input required name="phone" type="text" class="tel" placeholder="Phone" id="phone_form">
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+
+
+    <header class="header container">
+        <div class="header__logo">
+            <img src="./img/logo_dark.svg" alt="logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Price</a></li>
+                <li><a href="#">Course Programm</a></li>
+            </ul>
+        </nav>
+
+        <div class="header__responsive">
+            <button class="header__btn open-modal">
+                Get course
+            </button>
+            <div class="header__burger" id="burger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+
+    </header>
+
+    <div class="offer container">
+        <div class="offer__left">
+            <div class="offer__title">
+                <h1>Online course on data analytics from scratch</h1>
+            </div>
+            <div class="offer__sub-title">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis et dignissim cras fames cursus ut
+                praesent tristique gravida. In augue risus tincidunt ac penatibus. Et enim commodo viverra tempor.
+            </div>
+            <button class="offer__btn">
+                Buy course
+            </button>
+        </div>
+        <div class="offer__right">
+            <div class="offer__image">
+                <img src="./img/image-offer.png" alt="image">
+            </div>
+        </div>
+    </div>
+
+    <div class="about container">
+        <h2 class="sec-title">
+            What's this course about?
+        </h2>
+        <div class="about__wrap">
+            <div class="about__left">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis et dignissim cras fames cursus ut
+                    praesent tristique gravida. In augue risus tincidunt ac penatibus. Et enim commodo viverra tempor.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis et dignissim cras fames cursus ut
+                    praesent tristique gravida. In augue risus tincidunt ac penatibus. Et enim commodo viverra tempor.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis et dignissim cras fames cursus ut
+                    praesent tristique gravida. In augue risus tincidunt ac penatibus. Et enim commodo viverra tempor.
+                </p>
+            </div>
+            <div class="about__right">
+                <ul>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="greeting container">
+        <h2 class="sec-title">
+            Greetings from the course instructor
+        </h2>
+        <div class="greeting__wrap">
+            <div class="greeting__left">
+                <div class="greeting__img">
+                    <img src="https://images.unsplash.com/photo-1546215364-12f3fff5d578?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+                        alt="avatar">
+                </div>
+                <div class="greeting__text-photo">
+                    <div class="name">
+                        Archie Jones
+                    </div>
+                    <div class="position">
+                        Instructor, course author
+                    </div>
+                </div>
+            </div>
+            <div class="greeting__right">
+                <div class="greeting__quotes">
+                    <img src="./img/quotes.svg" alt="quotes">
+                </div>
+                <div class="text">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis et dignissim cras fames
+                        cursus ut praesent tristique gravida. In augue risus tincidunt ac penatibus. Et enim commodo
+                        viverra tempor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis et dignissim
+                        cras fames cursus ut praesent tristique gravida. In augue risus tincidunt ac penatibus. Et enim
+                        commodo viverra tempor.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis et dignissim cras fames
+                        cursus ut praesent tristique gravida. In augue risus tincidunt ac penatibus. Et enim commodo
+                        viverra tempor.
+                    </p>
+                    <div class="text_primary">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis et dignissim cras fames
+                        cursus ut praesent tristique gravida.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="price">
+        <div class="container">
+            <div class="price__wrap">
+                <div class="price__product-box">
+                    <img src="./img/product-box.png" alt="product">
+                </div>
+                <div class="price__content">
+                    <div class="title">Course price</div>
+                    <div class="sub-title">Convallis et dignissim cras fames cursus ut praesent tristique gravida.</div>
+                    <ul class="list">
+                        <li>Access to video tutorials forever</li>
+                        <li>Access to Instructor Chat</li>
+                        <li>Checking homework</li>
+                        <li>Certificate of Course Completion</li>
+                        <li>Job placement assistance</li>
+                    </ul>
+                    <div class="button-wrap">
+                        <span>49€</span>
+                        <button>Buy course</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="programm container">
+        <h2 class="sec-title">
+            Greetings from the course instructor
+        </h2>
+        <div class="programm__grid">
+            <div class="programm__item">
+                <div class="num">
+                    01
+                </div>
+                <div class="text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </div>
+            </div>
+
+            <div class="programm__item">
+                <div class="num">
+                    02
+                </div>
+                <div class="text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </div>
+            </div>
+
+            <div class="programm__item">
+                <div class="num">
+                    03
+                </div>
+                <div class="text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </div>
+            </div>
+
+            <div class="programm__item">
+                <div class="num">
+                    04
+                </div>
+                <div class="text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </div>
+            </div>
+
+            <div class="programm__item">
+                <div class="num">
+                    05
+                </div>
+                <div class="text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </div>
+            </div>
+
+            <div class="programm__item">
+                <div class="num">
+                    06
+                </div>
+                <div class="text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="callback">
+        <div class="container">
+            <div class="callback__wrap">
+                <div class="callback__right">
+                    <div class="callback__title">
+                        Get a consultation from our specialist
+                    </div>
+                    <div class="callback__sub-title">
+                        Fill out the form and our manager will call you back
+                    </div>
+                </div>
+                <div class="callback__left">
+                    <form action="#" class="form">
+                        <div class="title">Give me a call back</div>
+                        <input required name="name" type="text" placeholder="Name" id="name_form">
+                        <input required name="phone" type="text" class="tel" placeholder="Phone" id="phone_form">
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="footer">
+        <div class="container footer__wrap">
+
+            <div class="logo">
+                <img src="./img/logo_light.svg" alt="logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Price</a></li>
+                    <li><a href="#">Course Programm</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+
+    <script src="./js/main.min.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+.footer {
+    width: 100%;
+    margin-top: 93px;
+    background: #000000;
+    padding: 24px 0;
+
+    &__wrap {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    nav {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 23px;
+        color: #FFFFFF;
+        ul {
+            display: flex;
+        align-items: center;
+        gap: 65px;
+        list-style: none;
+        }
+    }
+}
+
+@media (max-width: 520px) {
+    .footer {
+        &__wrap {
+            flex-flow: column;
+            gap: 50px;
+        }
+        nav ul {
+            flex-flow: column;
+            gap: 20px;
+        }
+    }
+}
