@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -24,9 +24,9 @@
             <div class="drawer__wrap">
                 <img class="drawer__logo" src="./img/logo_dark.svg" alt="logo">
                 <ul class="drawer__ul">
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Price</a></li>
-                    <li><a href="#">Course Programm</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#desc">Course Description</a></li>
                 </ul>
             </div>
         </div>
@@ -53,9 +53,9 @@
         </div>
         <nav>
             <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Price</a></li>
-                <li><a href="#">Course Programm</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#desc">Course Description</a></li>
             </ul>
         </nav>
 
@@ -75,11 +75,10 @@
     <div class="offer container">
         <div class="offer__left">
             <div class="offer__title">
-                <h1>Online course on data analytics from scratch</h1>
+                <h1>Data Analytics for<br>Non-Technical Minds</h1>
             </div>
             <div class="offer__sub-title">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis et dignissim cras fames cursus ut
-                praesent tristique gravida. In augue risus tincidunt ac penatibus. Et enim commodo viverra tempor.
+                Do you ever catch yourself thinking about a new career but still not sure if it is possible? Data Analyst is a great start to get your foot in the IT industry door! Learn the basics from someone who actually does it for a living!
             </div>
             <button class="offer__btn">
                 Buy course
@@ -92,7 +91,7 @@
         </div>
     </div>
 
-    <div class="about container">
+    <div class="about container" id="about">
         <h2 class="sec-title">
             What's this course about?
         </h2>
@@ -127,7 +126,7 @@
         <div class="greeting__wrap">
             <div class="greeting__left">
                 <div class="greeting__img">
-                    <img src="https://images.unsplash.com/photo-1546215364-12f3fff5d578?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+                    <img src="./img/author.png"
                         alt="avatar">
                 </div>
                 <div class="greeting__text-photo">
@@ -145,27 +144,23 @@
                 </div>
                 <div class="text">
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis et dignissim cras fames
-                        cursus ut praesent tristique gravida. In augue risus tincidunt ac penatibus. Et enim commodo
-                        viverra tempor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis et dignissim
-                        cras fames cursus ut praesent tristique gravida. In augue risus tincidunt ac penatibus. Et enim
-                        commodo viverra tempor.
+                        My name is Alex and I've been working with data for almost 10 years. I am currently employed as a manager of data analytics in the insurance industry. I used to work in a restaurant and night clubs but at some point I grew tired of it and decided to change careers. Since then, I have worked in oil & gas, international logistics and now in insurance. 
                     </p>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis et dignissim cras fames
-                        cursus ut praesent tristique gravida. In augue risus tincidunt ac penatibus. Et enim commodo
-                        viverra tempor.
+                        At first, all I was driven by was higher salary so IT seemed like a no-brainer. However, it's not easy to get into that industry without any technical skills so I started looking for paths of least resistance and found data analytics.
+                    </p>
+                    <p>
+                        Just like most people, I started with Excel and soon moved onto more specialized data tools. Looking back, I'm glad I didn't choose to go to college to get an expensive computer science degree because I spent a lot less money and time learning exactly what was needed to get an entry-level job in the field.
                     </p>
                     <div class="text_primary">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis et dignissim cras fames
-                        cursus ut praesent tristique gravida.
+                        Now, I would like to help others get their chance to do the same!
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="price">
+    <div class="price" id="pricing">
         <div class="container">
             <div class="price__wrap">
                 <div class="price__product-box">
@@ -190,7 +185,7 @@
         </div>
     </div>
 
-    <div class="programm container">
+    <div class="programm container" id="desc">
         <h2 class="sec-title">
             Greetings from the course instructor
         </h2>
