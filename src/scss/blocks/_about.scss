@@ -119,6 +119,11 @@
         &__wrap {
             gap: 35px;
         }
+        &__example {
+            &-item {
+                flex-flow: column;
+            }
+        }
     }
 }
 
